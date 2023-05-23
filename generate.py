@@ -19,4 +19,4 @@ def run(path:str, output_name:str, location:str='new york'):
     results.to_csv(f'./{output_name}.csv', index=False)
 
     print('\nFinished!')
-    print(f'Data Outputted to ./{output_name}.csv')
+    print(f'Data Outputted to ./outputs/{output_name}.csv')
