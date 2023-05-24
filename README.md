@@ -8,7 +8,7 @@ This script takes in a list of restaurant names and a location, and outputs a cs
 
 ## Data and Setup
 
-This script uses the Google Maps API and the Yelp Fusion API. In order to use it, create a Google Maps API Key in the Google Cloud Console and a Yelp API Key in the Yelp API Documentation and add both a `GOOGLE_MAPS_API_KEY` and a `YELP_API_KEY` variable to a local `.env` file.
+This script uses the Google Maps API and the Yelp Fusion API. In order to use it, create a Google Maps API Key using the instructions [here](https://developers.google.com/maps/documentation/places/web-service/cloud-setup) and a Yelp API Key [here](https://docs.developer.yelp.com/docs/fusion-authentication) and add both a `GOOGLE_MAPS_API_KEY` and a `YELP_API_KEY` variable to a local `.env` file.
 
 To use a list of restaurants as an input, put it in the `datasets` folder as a `txt` file. An example file, `nyc-bib-gourmand.txt` has been provided to demonstrate proper format. After running the script, you can find the outputted csv file in the `outputs` folder.
 
