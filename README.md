@@ -18,14 +18,10 @@ After setting an API key, run `generate.ipynb` and set the `data`, `output_name`
 
 ## Future Development
 
-1. Cuisine
+1. Missing Values
 
-I'm not quite sure how to find the cuisine of a restaurant online. Google's API doesn't give me the data, and I can't find another API that will.
+There's a couple of missing values, which are currently set to empty strings. Perhaps querying another search engine and cross-referencing will fix the issue.
 
-2. Missing Values
-
-There's a lot of missing values, which are currently set to empty strings. Perhaps querying another search engine and cross-referencing will fix the issue.
-
-3. Accurate Cost
+2. Accurate Cost
 
 While the cost column uses Google's traditional $ - $$$$ system, I want to get a more accurate cost measure in actual dollar amounts. Perhaps adding basic ML to a menu scan (given the menu can be found through the current API) or a scroll of the website to find the menu would work.
